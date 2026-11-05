@@ -4,3 +4,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+.navbar{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: whitesmoke;
+  color: black;
+
+}
+.navbar h1{
+  align-self: center;
+  justify-self: flex-start;
+}
+.navbar ul{
+  list-style: none;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+  
+}
