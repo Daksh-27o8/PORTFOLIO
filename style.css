@@ -6,22 +6,19 @@
 }
 .navbar{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  padding: 10px 5px;
-  background-color: whitesmoke;
-  color: black;
+  background: whitesmoke;
+  color:slategrey;
 
 }
-.navbar h1{
-  align-self: center;
-  justify-self: flex-start;
-}
 .navbar ul{
+  display: flex;
   list-style: none;
+  gap: 20px;
 }
-.navbar a{
+.navbar ul li a{
   text-decoration: none;
-  color: black;
-  
+  color: slategrey;
 }
